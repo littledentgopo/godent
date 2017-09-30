@@ -51,13 +51,14 @@ header a {
 
 #callnow div {
  display: flex;
- flex: 1
+ flex: 1;
+ padding: 25%;
 }
 
 #callnow div a {
  color: #fff;
  display: block;
- background: #{{site.color.primary}};
+ background: #{{site.color.secondary}};
  padding: 10px;
  border-radius: 21px;
  height: 34px;
@@ -74,5 +75,5 @@ header a {
 }
 
 @media screen and (max-width: 1024px) { 
-    div#callnow { display: flex !important; background: #{{site.color.secondary}}; }  
+    div#callnow { display: flex !important; background: #{{site.color.primary}}; }  
 } 
